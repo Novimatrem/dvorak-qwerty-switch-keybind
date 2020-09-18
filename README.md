@@ -14,9 +14,11 @@ Enter the following commands to append code into your ``.xbindkeysrc`` to allow 
 ```touch /home/$(whoami)/.xbindkeysrc```
 
 ```echo '"bash /opt/to-dvorak.sh"' >> /home/$(whoami)/.xbindkeysrc```
+
 ```echo -e ' \t Pause + F1' >> /home/$(whoami)/.xbindkeysrc```
 
 ```echo '"bash /opt/to-qwerty.sh"' >> /home/$(whoami)/.xbindkeysrc```
+
 ```echo -e ' \t Pause + F2' >> /home/$(whoami)/.xbindkeysrc```
 
 Then run this command to make sure the keybind persists through reboots;
