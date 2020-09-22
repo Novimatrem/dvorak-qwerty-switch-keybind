@@ -15,11 +15,11 @@ Enter the following commands to append code into your ``.xbindkeysrc`` to allow 
 
 ```echo '"bash /opt/to-dvorak.sh"' >> /home/$(whoami)/.xbindkeysrc```
 
-```echo -e ' \t Control + F1' >> /home/$(whoami)/.xbindkeysrc```
+```echo -e ' \t Control + Shift + F1' >> /home/$(whoami)/.xbindkeysrc```
 
 ```echo '"bash /opt/to-qwerty.sh"' >> /home/$(whoami)/.xbindkeysrc```
 
-```echo -e ' \t Control + F2' >> /home/$(whoami)/.xbindkeysrc```
+```echo -e ' \t Control + Shift + F2' >> /home/$(whoami)/.xbindkeysrc```
 
 Then run this command to make sure the keybind persists through reboots;
 
@@ -40,5 +40,5 @@ and then run it again, so you can make use of the keybind in your current sessio
 That's it!
 
 # Usage
-You can use the ``Control`` + ``F1`` key combo (both keys at the same time) to switch to Dvorak, and the ``Control`` + ``F2`` key combo (both keys at the same time) to switch to QWERTY. Enjoy!
+You can use the ``Control`` + ``Shift`` + ``F1`` key combo (three keys at the same time) to switch to Dvorak, and the ``Control`` + ``Shift`` + ``F2`` key combo (three keys at the same time) to switch to QWERTY. Enjoy!
 
